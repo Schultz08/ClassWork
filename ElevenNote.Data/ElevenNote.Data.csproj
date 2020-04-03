@@ -59,6 +59,10 @@
     <Compile Include="Migrations\202003251448069_inital.Designer.cs">
       <DependentUpon>202003251448069_inital.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202003251540581_Added Note Models.cs" />
+    <Compile Include="Migrations\202003251540581_Added Note Models.Designer.cs">
+      <DependentUpon>202003251540581_Added Note Models.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Note.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -70,6 +74,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202003251448069_inital.resx">
       <DependentUpon>202003251448069_inital.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003251540581_Added Note Models.resx">
+      <DependentUpon>202003251540581_Added Note Models.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
